@@ -1,6 +1,11 @@
 .form {
   max-width: 385px;
 }
+.form__fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 .form__label {
   display: block;
   font-weight: 500;
@@ -32,11 +37,7 @@
 }
 .form__fieldset_el_checkbox {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
-}
-.form__label_el_checkbox {
-  margin-left: 12px;
 }
 .form__input_el_checkbox {
   display: inline-block;
@@ -45,4 +46,7 @@
   border-radius: 2px;
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
+}
+.form__label_el_checkbox {
+  margin-left: 12px;
 }
