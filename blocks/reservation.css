@@ -6,7 +6,6 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 .reservation__title {
   font-weight: 500;
